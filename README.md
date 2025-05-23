@@ -1,3 +1,1 @@
-# Retail Sales Analytics Pipeline
-
-This project demonstrates...
+# Retail Sales Pipeline
