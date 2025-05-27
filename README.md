@@ -19,3 +19,10 @@ A data engineering project to process and analyze retail sales using AWS Glue, S
 2. Create the Glue job using the script in `glue_jobs/transform_sales_data.py`.
 3. Run Athena DDL from `athena_queries/create_sales_table.sql`.
 4. Query results using `athena_queries/query_sales_summary.sql`.
+
+## Future Enhancements
+Integrate with Amazon EventBridge or Lambda for real-time data ingestion
+Add Amazon QuickSight dashboards for visualization
+Incorporate Terraform or AWS CDK for infrastructure-as-code deployment
+Schedule Glue jobs using workflow triggers and step functions
+
