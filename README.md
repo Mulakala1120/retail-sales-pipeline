@@ -19,12 +19,3 @@ A data engineering project to process and analyze retail sales using AWS Glue, S
 2. Create the Glue job using the script in `glue_jobs/transform_sales_data.py`.
 3. Run Athena DDL from `athena_queries/create_sales_table.sql`.
 4. Query results using `athena_queries/query_sales_summary.sql`.
-
-## Resume Entry
-**Retail Sales Analytics Pipeline – GitHub**  
-**May 2024 – Jun 2024**  
-• Developed a serverless data pipeline using AWS Glue, S3, and Athena to process and analyze retail sales data in real time.  
-• Built a PySpark-based ETL job in AWS Glue to ingest, clean, and transform CSV data from S3, generating aggregated sales metrics.  
-• Designed and deployed Athena SQL queries for fast, serverless reporting on daily revenue, region-based sales, and product trends.  
-• Created a reusable and scalable Glue job framework with schema evolution support and automated partitioning.  
-• Architected the pipeline using modular components with full CI/CD and version control, enabling easy enhancements and debugging.
