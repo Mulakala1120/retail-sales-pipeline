@@ -1,0 +1,5 @@
+OrderID,OrderDate,CustomerID,ProductID,ProductCategory,Quantity,UnitPrice,TotalAmount,Region
+1001,2024-05-01,CUST001,PROD001,Electronics,2,500,1000,North
+1002,2024-05-02,CUST002,PROD002,Clothing,1,80,80,South
+1003,2024-05-02,CUST003,PROD003,Grocery,5,20,100,East
+1004,2024-05-03,CUST004,PROD004,Clothing,3,70,210,West
