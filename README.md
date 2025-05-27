@@ -40,13 +40,8 @@ This project demonstrates a real-time analytics solution for retail data. Daily 
 
 
 ## Technologies Used
-- | Component        | Tool / Service     |
-|------------------|--------------------|
-| Data Storage      | Amazon S3          |
-| ETL Framework     | AWS Glue (PySpark) |
-| Analytics Engine  | Amazon Athena      |
-| Programming       | Python, SQL        |
-| Version Control   | Git, GitHub        |
+
+Data Storage, Amazon S3, ETL Framework, AWS Glue (PySpark), Analytics Engine, Amazon Athena, Programming, Python, SQL, Version Control, Git, GitHub
 
 ## How to Use
 1. Upload `sales_data.csv` to your S3 bucket (`s3://your-bucket/data/`).
