@@ -19,6 +19,25 @@ This project demonstrates a real-time analytics solution for retail data. Daily 
 - Amazon Athena: Executes analytical queries on transformed datasets stored in S3.
 - GitHub: Maintains version control for the codebase and deployment artifacts.
 
+  ## Repair Engine Prototype
+
+This prototype detects anomalies in metrics collected from AWS CloudWatch to preemptively repair or alert on data quality and system issues. Ideal for high-availability pipelines that support automated diagnosis of failures.
+
+```python
+# prototype_repair_engine.py
+import boto3
+from statistics import mean, stdev
+
+cloudwatch = boto3.client('cloudwatch')
+metric_data = cloudwatch.get_metric_statistics(...)
+
+# Simple anomaly detection (Z-score)
+def is_anomalous(data):
+    avg = mean(data)
+    deviation = stdev(data)
+    return [abs(x - avg) > 2 * deviation for x in data]
+```
+
 ## Key Features
 
 - End-to-End Serverless Architecture: No servers or clusters to manage.
